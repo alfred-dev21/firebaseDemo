@@ -53,7 +53,7 @@
             android:drawablePadding="20sp"
             android:ems="10"
             android:hint="Email"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:padding="10sp"
             android:textColor="@color/white"
             android:textColorHint="@color/white" />
@@ -115,6 +115,7 @@
             android:text="Sign in"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="loginUser"/>
     </RelativeLayout>
 </RelativeLayout>

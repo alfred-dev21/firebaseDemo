@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class StartActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toLoginPage(View view) {
-        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        startActivity(new Intent(StartActivity.this, LoginActivity.class));
         finish();
     }
 
     public void toRegistrationPage(View view) {
-        startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+        startActivity(new Intent(StartActivity.this, RegisterActivity.class));
         finish();
     }
 }
